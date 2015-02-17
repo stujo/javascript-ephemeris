@@ -7,7 +7,7 @@ $(function(){
   if (window.location.protocol == "https:")
   {
     var switchToHttpButton = $('<button>');
-    switchToHttpButton.text('This will only only work on HTTP (but why?)')
+    switchToHttpButton.text('This will only work on HTTP, not HTTPS - but why?')
     switchToHttpButton.click(redirectToHttp);
     $('#notice').append(switchToHttpButton);
   }
